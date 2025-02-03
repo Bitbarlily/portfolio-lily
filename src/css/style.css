@@ -4,6 +4,8 @@
   --heading-text-font: "Inter", serif;
   --text-font: "Inter", serif;
   --button-color: #bde3ff;
+  --button-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
 h1,
@@ -55,4 +57,5 @@ p {
   padding: 16px 20px 16px 20px;
   border-radius: 28px;
   width: 150px;
+  box-shadow: var(--button-shadow);
 }
