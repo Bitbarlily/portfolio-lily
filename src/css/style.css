@@ -1,3 +1,11 @@
+:root {
+  --header-color: rgba(175, 244, 198, 0.7);
+  --heading-name-font: "Indie Flower", serif;
+  --heading-text-font: "Inter", serif;
+  --text-font: "Inter", serif;
+  --button-color: #bde3ff;
+}
+
 h1,
 h2,
 h3,
@@ -5,12 +13,12 @@ h4,
 h5,
 h6 {
   color: black;
-  font-family: "Inter", serif;
+  font-family: var(--text-font);
   font-weight: bold;
 }
 
 p {
-  font-family: "Inter", serif;
+  font-family: var(--text-font);
   font-weight: normal;
 }
 
@@ -26,13 +34,13 @@ p {
 }
 
 .header h1 {
-  font-family: "Indie Flower", serif;
+  font-family: var(--heading-name-font);
   font-weight: lighter;
   font-size: 60px;
 }
 
 .header h2 {
-  font-family: "Inter", serif;
+  font-family: var(--heading-text-font);
   font-weight: normal;
   font-size: 17px;
   color: #272142;
@@ -40,7 +48,7 @@ p {
 }
 
 .btn-branding {
-  background: #bde3ff !important;
+  background: var(--button-color);
   font-family: "Inter", serif;
   font-size: 18px;
   font-weight: medium;
