@@ -5,38 +5,46 @@ h4,
 h5,
 h6 {
   color: black;
-  font-family: "playfair Display", serif;
+  font-family: "Inter", serif;
   font-weight: bold;
 }
 
 p {
-  font-family: "Poppins" sans-serif;
+  font-family: "Inter", serif;
   font-weight: normal;
 }
 
-.hero {
+.header {
   background: rgba(175, 244, 198, 0.7);
   text-align: center;
+  padding: 100px 0;
 }
 
-.hero p {
+.header p {
   font-size: 36px;
   font-weight: bold;
 }
 
-.hero h1 {
+.header h1 {
   font-family: "Indie Flower", serif;
-  font-weight: normal;
+  font-weight: lighter;
   font-size: 60px;
 }
 
-.hero h2 {
-  font-family: "Poppins" sans-serif;
+.header h2 {
+  font-family: "Inter", serif;
   font-weight: normal;
-  font-size: 26px;
+  font-size: 17px;
   color: #272142;
+  padding-bottom: 50px;
 }
 
 .btn-branding {
   background: #bde3ff !important;
+  font-family: "Inter", serif;
+  font-size: 18px;
+  font-weight: medium;
+  padding: 16px 20px 16px 20px;
+  border-radius: 28px;
+  width: 150px;
 }
