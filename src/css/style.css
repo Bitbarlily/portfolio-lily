@@ -55,7 +55,7 @@ p {
   font-size: 18px;
   font-weight: medium;
   padding: 16px 20px 16px 20px;
-  border-radius: 28px;
+  border-radius: 27px;
   width: 150px;
   box-shadow: var(--button-shadow);
 }
