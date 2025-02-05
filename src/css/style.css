@@ -3,9 +3,10 @@
   --heading-name-font: "Indie Flower", serif;
   --heading-text-font: "Inter", serif;
   --text-font: "Inter", serif;
-  --button-color: #bde3ff;
+  --button-color-blue: rgba(189, 227, 255, 1);
   --button-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  --button-background-hover: rgba(175, 244, 198, 0.2);
 }
 
 h1,
@@ -28,6 +29,7 @@ p {
   background: rgba(175, 244, 198, 0.7);
   text-align: center;
   padding: 100px 0;
+  margin-bottom: 150px;
 }
 
 .header p {
@@ -50,7 +52,7 @@ p {
 }
 
 .btn-branding {
-  background: var(--button-color);
+  background: var(--button-color-blue);
   font-family: "Inter", serif;
   font-size: 18px;
   font-weight: medium;
@@ -58,4 +60,47 @@ p {
   border-radius: 27px;
   width: 150px;
   box-shadow: var(--button-shadow);
+}
+
+.project-link {
+  background: rgba(228, 204, 255, 0.7);
+  color: rgb(255, 255, 255);
+  border-radius: 27px;
+  padding: 12px 16px 12px 16px;
+  width: 100px;
+  box-shadow: var(--button-shadow);
+  font-family: var(--text-font);
+}
+
+.weather-link:hover {
+  background: white;
+  border-color: rgba(228, 204, 255, 1);
+}
+
+.clock-link:hover {
+  background: white;
+  border-color: rgba(255, 199, 194, 1);
+}
+
+.food-link:hover {
+  background: white;
+  border-color: rgba(189, 227, 255, 1);
+}
+
+.bg-purple {
+  background: rgba(228, 204, 255, 0.7);
+}
+
+.bg-pink {
+  background: rgba(255, 199, 194, 0.7);
+}
+
+.bg-blue {
+  background: rgba(189, 227, 255, 0.7);
+}
+
+.footer {
+  background: rgba(255, 166, 41, 0.6);
+  height: 50px;
+  margin-top: 100px;
 }
