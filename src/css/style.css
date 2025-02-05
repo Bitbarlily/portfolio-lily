@@ -107,3 +107,14 @@ p {
 .icons {
   font-size: 32px;
 }
+
+.email-margin {
+  margin-top: 50px !important;
+}
+
+.contact-me {
+  margin-top: 150px;
+  font-size: 46px;
+  font-family: var(--heading-name-font);
+  text-align: center;
+}
