@@ -3,12 +3,11 @@
   --heading-name-font: "Indie Flower", serif;
   --heading-text-font: "Inter", serif;
   --text-font: "Inter", serif;
+  --text-primary-color: rgba(39, 33, 66, 1);
   --button-color-blue: rgba(189, 227, 255, 1);
-  --button-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
-    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-  --button-background-hover: rgba(175, 244, 198, 0.2);
+  --button-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
 }
-
 h1,
 h2,
 h3,
@@ -23,6 +22,7 @@ h6 {
 p {
   font-family: var(--text-font);
   font-weight: normal;
+  color: var(--text-primary-color);
 }
 
 .header {
@@ -46,7 +46,7 @@ p {
   font-family: var(--heading-text-font);
   font-weight: normal;
   font-size: 17px;
-  color: #272142;
+  color: var(--text-primary-color);
   padding-bottom: 50px;
 }
 
@@ -59,6 +59,24 @@ p {
   border-radius: 27px;
   width: 150px;
   box-shadow: var(--button-shadow);
+}
+
+.about-me {
+  font-size: 46px;
+  font-family: var(--heading-name-font);
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.about-me-text {
+  margin-bottom: 50px !important;
+}
+
+.my-projects {
+  font-size: 46px;
+  font-family: var(--heading-name-font);
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .project-link {
@@ -74,16 +92,19 @@ p {
 .weather-link:hover {
   background: white;
   border-color: rgba(228, 204, 255, 1);
+  color: var(--text-primary-color);
 }
 
 .clock-link:hover {
   background: white;
   border-color: rgba(255, 199, 194, 1);
+  color: var(--text-primary-color);
 }
 
 .food-link:hover {
   background: white;
   border-color: rgba(189, 227, 255, 1);
+  color: var(--text-primary-color);
 }
 
 .bg-purple {

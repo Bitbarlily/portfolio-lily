@@ -29,13 +29,15 @@
     <title>Portfolio Lily</title>
   </head>
   <body>
-    <div class="header pt-5">
+    <div class="header pt-5" id="header">
       <h1>Lily Svan</h1>
       <h2>Front-end developer based in Europe</h2>
       <div class="container text-center">
         <div class="row justify-content-center">
           <div class="col">
-            <a href="#" class="btn btn-branding mb-5 mt-5 mx-5">About me</a>
+            <a href="#about" class="btn btn-branding mb-5 mt-5 mx-5"
+              >About me</a
+            >
             <a href="#projects" class="btn btn-branding mb-5 mt-5 mx-5"
               >My projects</a
             >
@@ -50,7 +52,35 @@
       </div>
     </div>
 
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-6 d-flex justify-content-center">
+          <p class="about-me" id="about">About me</p>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-6 d-flex justify-content-center about-me-text">
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum.
+          </p>
+        </div>
+      </div>
+    </div>
+
     <div class="container mt-5" id="projects">
+      <div class="row justify-content-center">
+        <div class="col-6 justify-content-center">
+          <p class="my-projects">My projects</p>
+        </div>
+      </div>
       <div class="row">
         <div class="col-lg-6 col-sm-12">
           <img
@@ -59,7 +89,7 @@
             alt="Image of Lily's weather app project"
           />
         </div>
-        <div class="col-lg-6 col-sm-12 mt-4">
+        <div class="col-lg-6 col-sm-12">
           <p class="text-start">
             I just checked my weather app: 'Feels like 25C° but also might
             storm, snow or hail in Narnia
@@ -75,7 +105,7 @@
         </div>
       </div>
 
-      <div class="row mt-4">
+      <div class="row mt-5">
         <div class="col-lg-6 col-sm-12">
           <p class="text-start">Tick tock</p>
           <a
@@ -87,7 +117,7 @@
           >
         </div>
 
-        <div class="col-lg-6 col-sm-12 mt-4">
+        <div class="col-lg-6 col-sm-12">
           <img
             src="/img/World-clocke.png"
             class="img-fluid rounded"
@@ -96,7 +126,7 @@
         </div>
       </div>
 
-      <div class="row mt-4">
+      <div class="row mt-5">
         <div class="col-lg-6 col-sm-12">
           <img
             src="/img/Food-log.png"
@@ -104,7 +134,7 @@
             alt="images of different food from Lily's food log project"
           />
         </div>
-        <div class="col-lg-6 col-sm-12 mt-4">
+        <div class="col-lg-6 col-sm-12">
           <p class="text-start">I like food</p>
 
           <a
@@ -116,37 +146,37 @@
         </div>
       </div>
     </div>
-    <p class="contact-me" id="contact">Contact me</p>
-    <div class="container email-margin">
-      <div class="row justify-content-center">
-        <div class="col-6">
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label"
-              >Email address</label
-            >
-            <input
-              type="email"
-              class="form-control"
-              id="exampleFormControlInput1"
-              placeholder="name@example.com"
-            />
+    <div class="container">
+      <p class="contact-me" id="contact">Contact me</p>
+      <form class="container email-margin">
+        <div class="row justify-content-center">
+          <div class="col-6">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label"
+                >Email address</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="name@example.com"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label"
+                >Enter text</label
+              >
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+                placeholder="..."
+              ></textarea>
+            </div>
+            <input type="submit" value="Submit" />
           </div>
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label"
-              >Enter text</label
-            >
-            <textarea
-              class="form-control"
-              id="exampleFormControlTextarea1"
-              rows="3"
-              placeholder="..."
-            ></textarea>
-          </div>
-          <a href="mailto:email@email.com" class="btn btn-primary"
-            >Send email</a
-          >
         </div>
-      </div>
+      </form>
     </div>
 
     <div class="footer d-flex justify-content-evenly">
@@ -157,7 +187,9 @@
       </div>
 
       <div class="d-flex align-items-center">
-        <img src="img/Lily.png" class="img-fluid" alt="Lily handwrite" />
+        <a href="#header">
+          <img src="img/Lily.png" class="img-fluid" alt="Lily handwrite"
+        /></a>
       </div>
       <div class="d-flex justify-content-end align-items-center">
         ©Copyright 2025
