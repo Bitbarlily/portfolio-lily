@@ -76,7 +76,8 @@ p {
   font-size: 46px;
   font-family: var(--heading-name-font);
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
+  margin-top: 80px;
 }
 
 .project-link {
