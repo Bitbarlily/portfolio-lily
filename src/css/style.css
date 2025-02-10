@@ -125,6 +125,23 @@ p {
   margin-top: 150px;
 }
 
+.submit-btn {
+  background: var(--header-color);
+  color: #fff;
+  border: 1px solid #eee;
+  border-radius: 20px;
+  box-shadow: var(--button-shadow);
+  text-shadow: none;
+  padding: 12px 16px 12px 16px;
+  font-family: var(--text-font);
+}
+
+.submit-btn:hover {
+  background: white;
+  border-color: rgba(189, 227, 255, 1);
+  color: var(--text-primary-color);
+}
+
 .icons {
   font-size: 32px;
 }
